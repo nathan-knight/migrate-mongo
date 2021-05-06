@@ -3,9 +3,7 @@
   "version": "8.2.2",
   "description": "A database migration tool for MongoDB in Node",
   "main": "lib/migrate-mongo.js",
-  "bin": {
-    "migrate-mongo": "bin/migrate-mongo.js"
-  },
+  "bin": "bin/migrate-mongo.js",
   "scripts": {
     "test": "nyc --reporter=html --reporter=text mocha --recursive",
     "test-coverage": "nyc --reporter=text-lcov mocha --recursive | coveralls",
